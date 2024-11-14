@@ -1,0 +1,471 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     24307,        463]
+NotebookOptionsPosition[     21391,        420]
+NotebookOutlinePosition[     21789,        436]
+CellTagsIndexPosition[     21746,        433]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+An Informational Theory of Art, Entertainment and Human Personality\
+\>", "Title",
+ CellChangeTimes->{{3.94059189076921*^9, 3.940591906683174*^9}, {
+  3.940597788442512*^9, 3.940597798523531*^9}, {3.9405982024834137`*^9, 
+  3.940598213703781*^9}, {3.94059838451733*^9, 3.940598400075926*^9}, {
+  3.9405985660695333`*^9, 3.9405985696644707`*^9}, {3.9405989487425747`*^9, 
+  3.940598949630596*^9}, {3.940603885950254*^9, 
+  3.94060389279683*^9}},ExpressionUUID->"cdd0804b-693b-42ca-9d45-\
+728b5cc82b61"],
+
+Cell["Willem Nielsen", "Subtitle",
+ CellChangeTimes->{{3.940597806837832*^9, 
+  3.940597808716228*^9}},ExpressionUUID->"fd7b92d5-c57e-49aa-b6e5-\
+ce25ce9cc37d"],
+
+Cell["\<\
+I think the reason why information theory wasn\[CloseCurlyQuote]t formulated \
+sooner, is because humans usually immediately project meaning on information, \
+and because the space of all meaning is an endlessly complex space, it makes \
+it seem that the messages themselves will not follow any laws. Shannon\
+\[CloseCurlyQuote]s insight, to ignore the meaning, and just look at the size \
+of the message, is what allowed him to make progress in this area. Similarly \
+for a theory of beauty, I think the reason why no theory exists,  is that \
+when you consider the meaning behind images, things rapidly get impossibly \
+complex. \
+\>", "Text",
+ CellChangeTimes->{{3.9405978393883457`*^9, 3.940597859174124*^9}, {
+  3.940597899917183*^9, 3.9405979823520203`*^9}, {3.940598021475937*^9, 
+  3.940598359849737*^9}, {3.9405984202855597`*^9, 
+  3.9405987072598352`*^9}},ExpressionUUID->"4629d9fb-1f24-4e5a-a879-\
+c785143224d6"],
+
+Cell["\<\
+To give an example, the image of Jesus on the cross, to many Christians is \
+the most beautiful image there is, but to the Romans at the time, it likely \
+elicited fury and disgust. (Give a better example).\
+\>", "Text",
+ CellChangeTimes->{{3.9405978393883457`*^9, 3.940597859174124*^9}, {
+  3.940597899917183*^9, 3.9405979823520203`*^9}, {3.940598021475937*^9, 
+  3.940598359849737*^9}, {3.9405984202855597`*^9, 
+  3.940598703843523*^9}},ExpressionUUID->"c70aa205-6923-464c-a5e0-\
+0e06f3a808d0"],
+
+Cell["\<\
+But just like information theory, I think progress can be made on the theory \
+of beauty if we ignore the meaning and just look at the quantity of \
+information that is needed to encode it. This is by no means my idea, \
+Mandelbrot, Taleb and Woflram have all stated versions of this idea. My goal \
+here is to simply take there idea and run with it, showing it\
+\[CloseCurlyQuote]s explanatory power in the world of art and entertainment. \
+\
+\>", "Text",
+ CellChangeTimes->{{3.940598770684834*^9, 
+  3.940598947017948*^9}},ExpressionUUID->"51ab9964-080f-490b-88b6-\
+982e4b975bac"],
+
+Cell["\<\
+It\[CloseCurlyQuote]s easier to start by defining uglyness. An example of \
+something ugly, is an all black image. This image has a very low information \
+quantity. So you may conclude that beauty increases with the quantity of \
+information needed to describe an image. But it is not so simple, if we go \
+the other way and just show someone complete random noise, while it may hold \
+the eye for longer than the all-black image, nobody will travel across the \
+world for to see something like this, like they will for natural landscapes \
+or pieces of art. And you may say that this is because it has no meaning, but \
+we actually have a counterexample to this, namely abstract art. Specifically \
+I\[CloseCurlyQuote]d like to focus on Jackson Pollock\[CloseCurlyQuote]s \
+work. His work is an excellent case study precisely because it has attracted \
+so much attention, and has no inherent meaning. Now, studies have been done \
+that show that his paintings are fractal, meaning the density paint scales \
+with a power law. They are not just random squiggles as most people assume, \
+Pollock, was very precise in how he put down the layers, and was going for a \
+very specific look.  \
+\>", "Text",
+ CellChangeTimes->{{3.940598977210958*^9, 3.940599038759819*^9}, {
+  3.940599072609808*^9, 3.940599091930781*^9}, {3.940599123611888*^9, 
+  3.9405991394808083`*^9}, {3.940599181773851*^9, 3.940599350958528*^9}, {
+  3.940599400896727*^9, 3.940599529859262*^9}, {3.940599588607723*^9, 
+  3.940599762786525*^9}},ExpressionUUID->"93a315eb-7691-4597-a2ad-\
+32844eb1cd8b"],
+
+Cell["\<\
+My idea is that there is balance that beautiful things strike between \
+complexity and compressability. The fractal nature of the paintings give the \
+viewer an unconscious sense that he can predict aspects of the pattern. But \
+the randomness also makes him want to keep looking because it\
+\[CloseCurlyQuote]s clear to the brain that he does not understand everything \
+that\[CloseCurlyQuote]s going on. \
+\>", "Text",
+ CellChangeTimes->{{3.940599773524293*^9, 
+  3.940599942714904*^9}},ExpressionUUID->"846367df-168d-4344-b15f-\
+7e7e6c3117b3"],
+
+Cell["But why do humans enjoy this balance? ", "Text",
+ CellChangeTimes->{{3.940599948263242*^9, 3.940599954127406*^9}, {
+   3.9406000071635036`*^9, 3.9406000975643797`*^9}, {3.940603107175006*^9, 
+   3.94060311062644*^9}, 
+   3.94060346814861*^9},ExpressionUUID->"c9f9b865-ffa9-45b3-848a-\
+f0ea197ba287"],
+
+Cell["\<\
+I believe that this idea, of images holding our eye because they make us feel \
+like we can almost understand them is the exact same tactic that novelists \
+use. The job of the author, is to inject enough randomness into the story to \
+keep the reader off-balance and curious, but also give them enough to \
+stability so that they feel as if they can answer there questions. As I \
+mentioned, this is by no means my idea, and popular thinkers like Jordan \
+Peterson and Nassim Taleb have this. With Peterson its order and chaos, with \
+Taleb it\[CloseCurlyQuote]s antifragility.   \
+\>", "Text",
+ CellChangeTimes->{{3.9406031276169443`*^9, 3.94060345828279*^9}, {
+  3.940605160139439*^9, 
+  3.940605161464581*^9}},ExpressionUUID->"56c0a340-24af-4370-b518-\
+f4e7296bdc23"],
+
+Cell["\<\
+What is the precise ratio? I do not think it is possible to collect enough \
+data to come up with a precise ratio, for a level of uncertainty in images, \
+or artwork. I do think it is possible to show that people who grew up in a \
+more uncertain environment, will prefer more stable narratives, and people \
+who grew up in a more stable environment will prefer more chaotic narratives. \
+As we continue, the reason will make sense, but it lies in seeing us humans \
+as agents under uncertainty. Pain and pleasure are our signals for how to \
+navigate. When the environment has a lot of randomness, the direction you \
+think you should proceed in is usually wrong, Therefore, the moment you \
+experience the confusion, you will back away. \
+\>", "Text",
+ CellChangeTimes->{{3.9406034714236603`*^9, 3.940603863808488*^9}, {
+  3.940604051014935*^9, 
+  3.9406040591884937`*^9}},ExpressionUUID->"68405a17-42e2-435e-b42f-\
+7d2a37916211"],
+
+Cell["\<\
+Okay so I\[CloseCurlyQuote]m realizing I\[CloseCurlyQuote]m not quite clear \
+in what I mean by this. Let\[CloseCurlyQuote]s try to get more specific. The \
+idea is the following. A human is an agent. Okay so there\[CloseCurlyQuote]s \
+a time preference and then there is the pain pleasure balance. But let\
+\[CloseCurlyQuote]s imagine each time you confuse the reader, they go down, \
+away from the end goal. This means that they do not completely understand the \
+story, and to figure it out they have to keep reading. If you do this too \
+many times, they will assume that they will never \[OpenCurlyDoubleQuote]get \
+the point\[CloseCurlyDoubleQuote] of the story and stop reading. If you don\
+\[CloseCurlyQuote]t do this enough then they assume they get the point and \
+will also stop reading. Now my point here is that the amount that you confuse \
+the reader depends on the readers tolerance for uncertainty. If they are very \
+persistent, and willing to be confused, than you can confuse them a lot. And \
+they will enjoy that because it means they are figuring things out. Now what \
+does that say about the environment in which they were bred? I\
+\[CloseCurlyQuote]m still not sure. \
+\>", "Text",
+ CellChangeTimes->{{3.940603477852633*^9, 3.940603478607168*^9}, {
+  3.940604067627882*^9, 3.9406041583669367`*^9}, {3.940604206671956*^9, 
+  3.940604584195469*^9}},ExpressionUUID->"6827355a-f4b0-4221-96d0-\
+6f18809caf2b"],
+
+Cell["\<\
+But one interesting idea here is the notion that you will generally have to \
+mimic your environment because that\[CloseCurlyQuote]s what the people are \
+used to. In this sense, the phrase \[OpenCurlyDoubleQuote]art imitates life\
+\[CloseCurlyDoubleQuote] is very true. There is also multiple dimensions of \
+decision making. One is the energy required figure things out, but there is \
+also the time commitment.  But in general, it\[CloseCurlyQuote]s a question \
+of how much cost will the agent endure before they leave. And it has to do \
+also with the environment around them. \
+\>", "Text",
+ CellChangeTimes->{{3.940604586949683*^9, 3.94060477576057*^9}, {
+  3.940604955843207*^9, 
+  3.940604972860327*^9}},ExpressionUUID->"06b0e6b8-4114-4819-82d7-\
+5741fdecd16c"],
+
+Cell["\<\
+So really you want to form a minimal model for a surviving agent. And a model \
+for the environment that they\[CloseCurlyQuote]re in. Using those, you should \
+then be able to formulate a theory of entertainment and beauty. The agent is \
+going to adapt to the level of uncertainty. So just to zoom in on the art \
+thing and ignore the survival thing for a second. \
+\>", "Text",
+ CellChangeTimes->{{3.9406050821546288`*^9, 3.940605147609149*^9}, {
+  3.940605179541988*^9, 
+  3.940605219470441*^9}},ExpressionUUID->"c0f0b33d-3958-4db0-b41a-\
+ac87d07bf2fc"],
+
+Cell["\<\
+An idea here could be to talk about the alignment problem that brian \
+christian is doing.\
+\>", "Text",
+ CellChangeTimes->{{3.940605249590167*^9, 
+  3.940605264874033*^9}},ExpressionUUID->"f8b63b40-b4ee-40f4-aee8-\
+ab141c61c4a8"],
+
+Cell["\<\
+So basically I\[CloseCurlyQuote]m imagining some golden nuggets layed out in \
+a 2D space. Or maybe it\[CloseCurlyQuote]s better just to think of hill \
+climbing. Let\[CloseCurlyQuote]s first imagine a very rough environment. And \
+the goal here is to get to the highest point on the hill. \
+\>", "Text",
+ CellChangeTimes->{{3.9406052223619347`*^9, 
+  3.940605358824394*^9}},ExpressionUUID->"37919ca7-e335-43df-bd88-\
+cc7c3ccbd088"],
+
+Cell["\<\
+Okay but in the case where you\[CloseCurlyQuote]re watching a movie. What \
+really is the goal? Are you trying to get to the top of a hill? What is the \
+role of the story in that case. Basically, the role of the story, is to make \
+you continuously believe that there is some very important information that \
+you must keep watching to obtain. They do this by basically having you \
+befriend a character, and then put him in danger. Are \
+brain\[CloseCurlyQuote]s gut reflex is then to watch the movie to \
+\[OpenCurlyDoubleQuote]make sure\[CloseCurlyDoubleQuote] that they don\
+\[CloseCurlyQuote]t get harmed. So the job of the narrator, is to present the \
+reader with problems that they care get solved. And just repeatedly do this. \
+These need to be new problems though. Okay so if we imagine a narrative as a \
+graph, you basically guide the reader through a graph. And along the way \
+there are certain nodes with many different possibilities. Okay that kind of \
+makes sense. So then the details of the graph would be the structure of the \
+narrative. We can define each scene in the narrative as being a node. In a \
+tarantino movie, each scene there are many potential ways that the story can \
+go. Now the Christopher Nolan idea of having the reader be very confused for \
+the entire movie, may be related to this but may also be the same idea. So \
+how would a Christopher Nolan graph go. I mean maybe you could think of \
+Christopher Nolan as the story takes many paths at once, and you are in many \
+states at once. So maybe the nodes just correspond to states of the world. \
+Then there is the number of potential current states, and that is kind of \
+your current uncertainty, and there is also the branching effect. There\
+\[CloseCurlyQuote]s also another distinction you have to make, which is \
+basically, let\[CloseCurlyQuote]s say you expect two different paths to \
+happen, but then a third completely unexpected one occurs. So this would have \
+to correspond to a different edge weight. Where there are actually many \
+possible paths but you are convinced that okay the way you could resolve this \
+is just say there are 100 paths and they are all converging to these two \
+world states.   \
+\>", "Text",
+ CellChangeTimes->{{3.940605384586623*^9, 3.940605416480159*^9}, {
+  3.940605458975769*^9, 3.940605472909886*^9}, {3.940605511796979*^9, 
+  3.9406056754481153`*^9}, {3.9406057210357103`*^9, 3.9406060944630632`*^9}, {
+  3.940606125073132*^9, 
+  3.940606274204372*^9}},ExpressionUUID->"ad9b757b-6927-436c-a855-\
+78e36ea4fa09"],
+
+Cell["\<\
+Okay but the problem with having one potential path, is that it doesn\
+\[CloseCurlyQuote]t accurately capture the state of confusion. Well actually \
+maybe it does. Okay so pretty much the level of uncertainty corresponds to \
+the number of branches. In a tarantino movie, I would say you have a \
+\>", "Text",
+ CellChangeTimes->{{3.94060629219917*^9, 
+  3.9406064358660173`*^9}},ExpressionUUID->"2117b0b4-8a37-41f4-b7d5-\
+3cc9e918d317"],
+
+Cell["\<\
+The number of states at each level is constant, and it is the job of the \
+narrator to choose where the edges go. \
+\>", "Text",
+ CellChangeTimes->{{3.940606485717581*^9, 
+  3.9406065303378572`*^9}},ExpressionUUID->"2d1949db-d306-44f7-92cc-\
+0f362e8b9d0c"],
+
+Cell["\<\
+So maybe you have 10 edges, and you can choose whether to connect them to \
+nodes that are far apart or all to one node at different levels in the story. \
+Basically, I think a Christopher Nolan movie would have edges all spread out \
+in the beginning, and then limit the number of possibilities throughout, but \
+in the end still have actually many potential nodes. Whereas a regular movie \
+would have a \
+\>", "Text",
+ CellChangeTimes->{{3.940606545493905*^9, 
+  3.940606703152699*^9}},ExpressionUUID->"da800905-091f-4014-8c29-\
+289bd1a14e90"],
+
+Cell["\<\
+Okay so you have to distinguish between the entropy of the message, even when \
+you know exactly what happens in the movie, what does that mean for you? And \
+then actually confusion about what happens in the film. Really these two are \
+intertwined though. And they are one in the same. A movie where you know what \
+happens, but don\[CloseCurlyQuote]t know what it means for you, is similar to \
+a movie where you know what happens but don\[CloseCurlyQuote]t know what it \
+means for your life. \
+\>", "Text",
+ CellChangeTimes->{{3.940606734136238*^9, 
+  3.94060685092194*^9}},ExpressionUUID->"0e8f4bb8-fffa-472f-88d6-\
+1c531b65a033"],
+
+Cell["\<\
+So I think we should actually make a distinction between potential paths and \
+paths taken. This allows us to resolve some uncertainty but still be unclear \
+about which paths to take.  \
+\>", "Text",
+ CellChangeTimes->{{3.940606885772592*^9, 
+  3.940606939554269*^9}},ExpressionUUID->"42a11300-0f30-414a-886f-\
+cac2821d7ce5"],
+
+Cell["\<\
+Okay so I think a narrative can be thought of as a message. Or really a set \
+of messages. So how can we quantify this. Well I think Eriche\
+\[CloseCurlyQuote]s storytelling app may actually help get us to a concrete \
+logic of storytelling. I\[CloseCurlyQuote]m sure there are also books about \
+this. \
+\>", "Text",
+ CellChangeTimes->{{3.940607046296568*^9, 3.940607123204526*^9}, {
+  3.94060717916988*^9, 
+  3.940607179817975*^9}},ExpressionUUID->"261cca5d-fc97-42c6-ad6c-\
+7fbf26efb7a5"],
+
+Cell["\<\
+Coming back to the idea of an image. Initially all states are possible, but \
+then a set are reduced. \
+\>", "Text",
+ CellChangeTimes->{{3.940607233963339*^9, 
+  3.9406072885910177`*^9}},ExpressionUUID->"dd2fa505-6e73-4640-827d-\
+78f851273e30"],
+
+Cell["\<\
+Okay so the job of the narrator is to present the graph, or the narrative, \
+the agent has the option to continue into the graph or opt out. And the job \
+of the artist is to convince you to travel through the graph. The artist has \
+a set of edges that they can draw to a set of nodes. One of the things you \
+can measure, is the number of edges over time. as you proceed through the \
+graph. In a happily ever-after scenario, the number of edges converges to 0. \
+But in a Christopher Nolan movie, the number of edges only diminishes and \
+even at the end there are some edges pointing to nodes. Another critical \
+factor is the length of the path that you take. Some stories are very long \
+with many nodes, while others really just have a few nodes and focus on other \
+aspects other than story telling. So when you\[CloseCurlyQuote]re looking at \
+an image, it basically takes you along this path where you are looking at the \
+image and the more you look at it, the paths are reducing. And like art, the \
+number of edges is getting smaller as you see patterns and are able to \
+predict what you will see next. Sometimes you are able to figure it out but \
+other times, you are left to wonder. So the task is how to quantify this. \
+\>", "Text",
+ CellChangeTimes->{{3.940607358733488*^9, 3.9406074762664413`*^9}, {
+  3.940607520691831*^9, 3.9406079312588253`*^9}, {3.9406079641336603`*^9, 
+  3.9406079703930597`*^9}},ExpressionUUID->"4cd77ebe-2c45-4e88-a3fc-\
+36679fc3f78e"],
+
+Cell["\<\
+Well it\[CloseCurlyQuote]s very difficult to do with images, because \
+processes are going on subconsciously. This is the same for narratives really \
+although, maybe we are able to find some very simple narrative that \
+illustrate the point. It\[CloseCurlyQuote]s also very hard to quantify the \
+number of potential states in a move. With a game though, you can absolutely \
+do this. Well let\[CloseCurlyQuote]s think about chess. I mean when I\
+\[CloseCurlyQuote]m watching Magnus Carlsen play, there is some level \
+\>", "Text",
+ CellChangeTimes->{{3.940608062137292*^9, 3.940608147022501*^9}, {
+  3.940608202835114*^9, 3.940608325070923*^9}, {3.9406084216685333`*^9, 
+  3.940608426277454*^9}},ExpressionUUID->"17e6ab7d-7ffe-412b-85d1-\
+ae53297de34c"],
+
+Cell["\<\
+Okay so there\[CloseCurlyQuote]s another thing about narratives, which is the \
+emotion associated with the outcome. So this is kind of another layer of \
+stochasticity, where we have to have a feeling that certain nodes are better \
+than others. But whether they actually are is unclear. Okay so I think this \
+could work. Now do the nodes tend to be associated with moving upwards or \
+what. So basically if you move up it should allow you to move to a higher \
+position, but not always right. If all the nodes give the illusion that they \
+are in the same place, well then \
+\>", "Text",
+ CellChangeTimes->{{3.9406084410250683`*^9, 3.940608455341846*^9}, {
+  3.9406084912402573`*^9, 
+  3.940608725870593*^9}},ExpressionUUID->"e3f1b6ba-a2af-48a2-9cdf-\
+1f20598bf3bd"],
+
+Cell["\<\
+Okay so my idea, is to have a set of nodes there are edges and then the \
+placement. The placement corresponds to the perceived fitness and the edges \
+correspond to where you can go from there. This could be pain and pleasure in \
+a game, this could be evolution, this could be your interpretation of images, \
+this could be someone else\[CloseCurlyQuote]s pain and pleasure in a story, \
+but ultimately all of them are about fitness. Well okay maybe you don\
+\[CloseCurlyQuote]t define success you just define failure, which is to hit \
+some point far enough down, some threshold. This is human death, or utter \
+failure, or extinction. Importantly, there is correlation with going up, but \
+you can always descend. The difference between narratives in games, is you \
+allow the user to decide. In narratives, the author decides. This was the \
+missing component from Wolfram\[CloseCurlyQuote]s interpretation on games. \
+But the question is can we quantify this. It\[CloseCurlyQuote]s hard because \
+it depends on the observer. But if we just make the observer some basic \
+algorithm, then we will see what happens in the case of games.   \
+\>", "Text",
+ CellChangeTimes->{{3.940609867869422*^9, 3.940610332494217*^9}, {
+  3.940610383556107*^9, 
+  3.9406104486587877`*^9}},ExpressionUUID->"c101e8c5-4488-409d-800f-\
+14b1111f14a7"],
+
+Cell["\<\
+I\[CloseCurlyQuote]m sure this has already been done, but I think it could be \
+useful to see in this context. The other thing is can you ever really \
+quantify things outside the game. Well I guess one idea would be to quantify \
+the \
+\>", "Text",
+ CellChangeTimes->{{3.940610468121113*^9, 3.940610524660576*^9}, {
+  3.940610597220889*^9, 
+  3.9406106101924353`*^9}},ExpressionUUID->"2fd52cee-8826-4829-adc7-\
+73302e9d7a59"]
+}, Open  ]]
+},
+WindowSize->{923, 675},
+WindowMargins->{{203, Automatic}, {48, Automatic}},
+FrontEndVersion->"14.0 for Mac OS X x86 (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"5a98ad3d-89a2-40e1-a54b-3f3b6cad57e1"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 511, 9, 160, "Title",ExpressionUUID->"cdd0804b-693b-42ca-9d45-728b5cc82b61"],
+Cell[1094, 33, 160, 3, 53, "Subtitle",ExpressionUUID->"fd7b92d5-c57e-49aa-b6e5-ce25ce9cc37d"],
+Cell[1257, 38, 933, 15, 127, "Text",ExpressionUUID->"4629d9fb-1f24-4e5a-a879-c785143224d6"],
+Cell[2193, 55, 506, 9, 58, "Text",ExpressionUUID->"c70aa205-6923-464c-a5e0-0e06f3a808d0"],
+Cell[2702, 66, 592, 11, 104, "Text",ExpressionUUID->"51ab9964-080f-490b-88b6-982e4b975bac"],
+Cell[3297, 79, 1578, 23, 219, "Text",ExpressionUUID->"93a315eb-7691-4597-a2ad-32844eb1cd8b"],
+Cell[4878, 104, 556, 10, 81, "Text",ExpressionUUID->"846367df-168d-4344-b15f-7e7e6c3117b3"],
+Cell[5437, 116, 305, 5, 35, "Text",ExpressionUUID->"c9f9b865-ffa9-45b3-848a-f0ea197ba287"],
+Cell[5745, 123, 781, 13, 127, "Text",ExpressionUUID->"56c0a340-24af-4370-b518-f4e7296bdc23"],
+Cell[6529, 138, 942, 15, 150, "Text",ExpressionUUID->"68405a17-42e2-435e-b42f-7d2a37916211"],
+Cell[7474, 155, 1440, 21, 196, "Text",ExpressionUUID->"6827355a-f4b0-4221-96d0-6f18809caf2b"],
+Cell[8917, 178, 780, 13, 104, "Text",ExpressionUUID->"06b0e6b8-4114-4819-82d7-5741fdecd16c"],
+Cell[9700, 193, 566, 10, 81, "Text",ExpressionUUID->"c0f0b33d-3958-4db0-b41a-ac87d07bf2fc"],
+Cell[10269, 205, 240, 6, 35, "Text",ExpressionUUID->"f8b63b40-b4ee-40f4-aee8-ab141c61c4a8"],
+Cell[10512, 213, 442, 8, 58, "Text",ExpressionUUID->"37919ca7-e335-43df-bd88-cc7c3ccbd088"],
+Cell[10957, 223, 2563, 37, 380, "Text",ExpressionUUID->"ad9b757b-6927-436c-a855-78e36ea4fa09"],
+Cell[13523, 262, 447, 8, 81, "Text",ExpressionUUID->"2117b0b4-8a37-41f4-b7d5-3cc9e918d317"],
+Cell[13973, 272, 266, 6, 35, "Text",ExpressionUUID->"2d1949db-d306-44f7-92cc-0f362e8b9d0c"],
+Cell[14242, 280, 556, 10, 104, "Text",ExpressionUUID->"da800905-091f-4014-8c29-289bd1a14e90"],
+Cell[14801, 292, 646, 11, 104, "Text",ExpressionUUID->"0e8f4bb8-fffa-472f-88d6-1c531b65a033"],
+Cell[15450, 305, 336, 7, 58, "Text",ExpressionUUID->"42a11300-0f30-414a-886f-cac2821d7ce5"],
+Cell[15789, 314, 501, 10, 58, "Text",ExpressionUUID->"261cca5d-fc97-42c6-ad6c-7fbf26efb7a5"],
+Cell[16293, 326, 254, 6, 35, "Text",ExpressionUUID->"dd2fa505-6e73-4640-827d-78f851273e30"],
+Cell[16550, 334, 1490, 21, 242, "Text",ExpressionUUID->"4cd77ebe-2c45-4e88-a3fc-36679fc3f78e"],
+Cell[18043, 357, 765, 12, 104, "Text",ExpressionUUID->"17e6ab7d-7ffe-412b-85d1-ae53297de34c"],
+Cell[18811, 371, 779, 13, 127, "Text",ExpressionUUID->"e3f1b6ba-a2af-48a2-9cdf-1f20598bf3bd"],
+Cell[19593, 386, 1343, 20, 219, "Text",ExpressionUUID->"c101e8c5-4488-409d-800f-14b1111f14a7"],
+Cell[20939, 408, 436, 9, 58, "Text",ExpressionUUID->"2fd52cee-8826-4829-adc7-73302e9d7a59"]
+}, Open  ]]
+}
+]
+*)
+
